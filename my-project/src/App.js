@@ -1,5 +1,7 @@
 import React from 'react'
 import Flexbox from './components/Flexbox'
+import Sample from './components/Sample';
+import Button from './components/Button';
 
 // export default function App() {
 //   return (
@@ -30,6 +32,10 @@ import Flexbox from './components/Flexbox'
         <div>
           <Flexbox />
         </div>
+        <div>
+          <Sample />
+        </div>
+        <Button />
       </div>
       
     );
