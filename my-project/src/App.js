@@ -2,6 +2,11 @@ import React from 'react'
 import Flexbox from './components/Flexbox'
 import Sample from './components/Sample';
 import Button from './components/Button';
+import LoginForm from './components/LoginForm';
+import Navbar from './components/Navbar';
+import FormComponent from './components/FormComponent';
+import Card from './components/Card';
+import GrowCircle from './components/GrowCircle';
 
 // export default function App() {
 //   return (
@@ -35,8 +40,26 @@ import Button from './components/Button';
         <div>
           <Sample />
         </div>
+        <div>
         <Button />
+        </div>
+        <div>
+          <LoginForm />
+        </div>
+        <div>
+          <Navbar />
+        </div>
+        <div>
+          <FormComponent />
+        </div>
+        <div>
+          <Card />
+        </div>
+        <div>
+          <GrowCircle />
+        </div>
       </div>
+      
       
     );
   }
