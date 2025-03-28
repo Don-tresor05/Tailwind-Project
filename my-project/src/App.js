@@ -77,7 +77,8 @@ export default function App() {
   const todos = [
     {rowNumber: 1, rowDescription: 'Feed puppy', rowAssigned: 'User One'},
     {rowNumber: 2, rowDescription: 'Water Plants', rowAssigned: 'User Two'},
-    {rowNumber: 3, rowDescription: 'Make Dinner', rowAssigned: 'User Three'}
+    {rowNumber: 3, rowDescription: 'Make Dinner', rowAssigned: 'User Three'},
+    {rowNumber: 4, rowDescription: 'Charge phone battery', rowAssigned: 'User Four'}
   ]
 
   return (
