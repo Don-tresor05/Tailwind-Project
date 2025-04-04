@@ -89,8 +89,7 @@ export default function App() {
         rowDescription: 'New Todo',
         rowAssigned: 'User Four'
       }
-      todos.push(newTodo);
-      console.log(todos);
+      setTodos(todos => [...todos, newTodo]);
     }
   }
 
